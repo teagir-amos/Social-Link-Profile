@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color:hsl(0, 0%, 12%) ;
+    border-radius: 10px;
+    width: 25rem;
+    height: 40rem;
+    margin-top: 80px;
+}
+.container .profile{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.container .profile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border:2px solid hsl(75, 94%, 57%) ;
+
+}
+.container .details{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: x-large;
+}
+.container .residential{
+    color: hsl(75, 94%, 57%);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.container .bio{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+.container .Github{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+.container .Github input {
+    background-color: hsl(0, 0%, 20%);
+    width: 20rem;
+    color: white;
+    height: 2.8rem;
+    border-radius: 10px;
+    font-size: large;
+}
+.container .Github input:hover{
+    background:hsl(75, 94%, 57%); 
+    cursor: pointer;
+}
+.container .FrontEnd{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.container .FrontEnd input{
+    background-color: hsl(0, 0%, 20%);
+    width: 20rem;
+    color: white;
+    height: 2.8rem;
+    border-radius: 10px;
+    font-size: large;
+}
+.container .FrontEnd input:hover{
+    background: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+.container .Linkedln{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.container .Linkedln input{
+    background-color: hsl(0, 0%, 20%);
+    width: 20rem;
+    color: white;
+    height: 2.8rem;
+    border-radius: 10px;
+    font-size: large;
+}
+.container .Linkedln input:hover {
+    background: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+.container .Twitter{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.container .Twitter input{
+    background-color: hsl(0, 0%, 20%);
+    width: 20rem;
+    color: white;
+    height: 2.8rem;
+    border-radius: 10px;
+    font-size: large;
+}
+.container .Twitter input:hover {
+    background: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+.container .Instagram{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.container .Instagram input{
+    background-color: hsl(0, 0%, 20%);
+    width: 20rem;
+    color: white;
+    height: 2.8rem;
+    border-radius: 10px;
+    font-size: large;
+}
+.container .Instagram input:hover {
+    background: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+.container .attribution{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+
+}
+
+
+
